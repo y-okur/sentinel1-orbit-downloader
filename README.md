@@ -19,7 +19,7 @@ This is a simple bash script to download an orbit file from Copernicus Data Hub.
 
 ## Usage
 
-run fetch_orbit.sh /path/to/slc/folder to download orbit files.
+run ```fetch_orbit.sh -F /path/to/slc/folder``` to download orbit files.
 The script finds all SLC files in the input folder and downloads orbit files to the same folder.
 You can use it to download single or multiple files.
 
